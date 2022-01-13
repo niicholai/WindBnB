@@ -1,0 +1,164 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  margin: 0% 5% 0% 5%;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/*Navigation Bar*/
+.navbar {
+  margin: 2% 5% 2% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbarLeft {
+  text-align: left;
+}
+
+.navbarRight {
+  display: flex;
+  gap: 3em;
+}
+
+.addGuests {
+  opacity: 60%;
+}
+
+/* Header & Top of Main */
+.mainTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.howManyStays {
+  display: flex;
+  align-items: center;
+}
+
+/* house rows */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.houseOne,
+.houseTwo,
+.houseThree,
+.houseFour,
+.houseFive,
+.houseSix {
+  border: 2px outset;
+  border-radius: 25px;
+  min-width: 28vw;
+  max-width: 28vw;
+  background: linear-gradient(to bottom, #cccccc 83%, #acacac 83% 100%);
+}
+
+.houseOneImage,
+.houseTwoImage,
+.houseThreeImage,
+.houseFourImage,
+.houseFiveImage,
+.houseSixImage {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.houseImage {
+  max-width: 27vw;
+  min-width: 27vw;
+  min-height: 27vh;
+  max-height: 27vh;
+  border-radius: 25px;
+  box-shadow: 2px 4px 3px 3px black;
+}
+
+.underHouse {
+  margin: 3% 3% 0% 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.superHost {
+  font-weight: bold;
+  border: 2px dashed;
+  border-radius: 20px;
+}
+
+.houseSize {
+  font-weight: 500;
+  opacity: 60%;
+}
+
+.rating {
+  display: flex;
+  gap: 1em;
+  font-weight: 500;
+}
+
+.houseFour,
+.houseFive,
+.houseSix {
+  margin-top: 2%;
+}
+
+.description {
+  margin: 1% 3% 1% 3%;
+  font-weight: 600;
+}
+
+.icon {
+  filter: invert(53%) sepia(9%) saturate(7203%) hue-rotate(324deg)
+    brightness(94%) contrast(97%);
+  width: 24px;
+  height: 24px;
+}
+
+.welcome {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-text {
+  margin-top: 30vh;
+  font-weight: 500;
+}
+
+.welcome-text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.welcome-text h1 {
+  font-size: 1.5rem;
+}
+
+.welcome-text a {
+  color: #f7542e;
+}
